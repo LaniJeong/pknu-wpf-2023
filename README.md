@@ -3,9 +3,9 @@
 Windows Presentation Foundation
 
 ## １일차
-－ WPF 기본
-  － WPF 개요 및 윈폼과의 차이점
-  － 기본컨트롤
+- WPF 기본
+  - WPF 개요 및 윈폼과의 차이점
+  - 기본컨트롤
   
 ## 2일차
 - WPF 기초
