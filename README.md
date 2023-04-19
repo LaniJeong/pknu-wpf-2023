@@ -10,4 +10,6 @@ Windows Presentation Foundation
 ## 2일차
 - WPF 기초
   - 기본 컨트롤
-  - 레이아웃
+  - 레이아웃 Grid
+  - 심플앱 만들기
+  
