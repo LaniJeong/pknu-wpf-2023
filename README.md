@@ -11,5 +11,7 @@ Windows Presentation Foundation
 - WPF 기초
   - 기본 컨트롤
   - 레이아웃 Grid
-  - 심플앱 만들기
+  - bikeshop 시작
+  - WPF 특징적인 개발방식
+  - DB핸들
   
