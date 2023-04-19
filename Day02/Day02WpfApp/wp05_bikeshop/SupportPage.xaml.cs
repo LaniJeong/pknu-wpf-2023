@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Runtime.CompilerServices;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows;
@@ -21,10 +22,11 @@ namespace wp05_bikeshop
     /// </summary>
     public partial class SupportPage : Page
     {
+        Car myCar = null;
         public SupportPage()
         {
             InitializeComponent();
-            InitializeComponent();
+            InitCar();
         }
 
         private void InitCar()
@@ -32,6 +34,13 @@ namespace wp05_bikeshop
             // 일반적 C#에서 클래스 객체 인스턴스 사용방법 동일
             Car myCar = new Car();
             myCar.Names = "아이오닉";
+            myCar.Colors = Colors.White;
+            myCar.Speed = 220;
+        }
+
+        private void Page_Loaded(object sender, RoutedEventArgs e)
+        {
+            TxtSample.Test= myCar.Speed.ToString();
         }
 
     }

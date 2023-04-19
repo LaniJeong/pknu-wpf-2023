@@ -12,7 +12,19 @@
     <Grid>
         <Label>
             <!-- 사용자가 만든 클래스는 반드시 재컴파일이후 사용(필수) -->
-            <logics:Car Names="아이오닉" Speed="230" Color="WhiteSmoke"/>
+            <logics:Car Name="아이오닉" Speed="230" Color="WhiteSmoke"/>
         </Label>
+        <Label Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2" Content="보증서 작성" FontSize="20" FontWeight="ExtraBold" Margin="10, 20"/>
+
+        <Button Grid.Row="2" Grid.Column="1" Content="전송" FontSize="16" Margin="10,10,40,10"/>
+
+        <TextBox x:Name="TxtSample" Grid.Row="2" Grid.Column="0" Margin="10" FontSize="14" Text=""/>
+
+        <StackPanel Grid.Row="1" Grid.Column="0">
+            <Slider x:Name="SldValue" Maximum="100" Value="0" Height="30" Ticks="10"/>
+            <ProgressBar Height="30" Maximum="100" Value="{Binding FallbackValue, ElementName=SldValue}"/>
+            <Label Content="{Binding Value, ElementName=SldValue}" FontSize="20" HorizontalAlignment="Center"/>
+        </StackPanel>
+
     </Grid>
 </Page>

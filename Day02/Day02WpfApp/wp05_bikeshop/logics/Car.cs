@@ -11,6 +11,6 @@ namespace wp05_bikeshop.logics
     {
         public string Names { get; set; }        // Auto Property
         public double Speed { get; set; }
-        public Color Color { get; set; }
+        public Color Colors { get; set; }
     }
 }
