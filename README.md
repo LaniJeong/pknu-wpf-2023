@@ -13,5 +13,7 @@ Windows Presentation Foundation
   - 레이아웃 Grid
   - bikeshop 시작
   - WPF 특징적인 개발방식
-  - DB핸들
   
+## 3일차
+- WPF 기초
+  - 데이터바인딩 계속
