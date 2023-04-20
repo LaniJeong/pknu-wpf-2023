@@ -16,4 +16,5 @@ Windows Presentation Foundation
   
 ## 3일차
 - WPF 기초
-  - 데이터바인딩 계속
+  - 데이터바인딩 마무리
+  - 디자인(템플릿, 스타일, 리소스, 리소스딕셔너리)
