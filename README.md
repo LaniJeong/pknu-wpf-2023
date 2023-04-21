@@ -18,3 +18,13 @@ Windows Presentation Foundation
 - WPF 기초
   - 데이터바인딩 마무리
   - 디자인(템플릿, 스타일, 리소스, 리소스딕셔너리)
+
+## 4일차
+- WPF 
+  - MahApps.Metro 디자인 연동
+  - MVVM 패턴
+  - 데이터바인딩 DB연
+
+<4일차 MVVM View>
+
+<img src ="https://raw.githubusercontent.com/LaniJeong/pknu-wpf-2023/bfa4e3ec84f2d696f69f3abdcfc5d7b58bf55157/Day04/Day04WpfApp/wp08_personlinfoApp/view.png" width="700" />
