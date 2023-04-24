@@ -28,3 +28,9 @@ Windows Presentation Foundation
 <4일차 MVVM View>
 
 <img src ="https://raw.githubusercontent.com/LaniJeong/pknu-wpf-2023/bfa4e3ec84f2d696f69f3abdcfc5d7b58bf55157/Day04/Day04WpfApp/wp08_personlinfoApp/view.png" width="700" />
+
+## 5일차
+- WPF 응용
+  - MVVM 패턴  
+  - MVVM framework / Cliburn
+  - 데이터바인딩 DB연동
