@@ -23,7 +23,7 @@ Windows Presentation Foundation
 - WPF 
   - MahApps.Metro 디자인 연동
   - MVVM 패턴
-  - 데이터바인딩 DB연
+  - 데이터바인딩 DB연동
 
 <4일차 MVVM View>
 
@@ -34,3 +34,15 @@ Windows Presentation Foundation
   - MVVM 패턴  
   - MVVM framework / Cliburn
   - 데이터바인딩 DB연동
+
+## 6일차
+- WPF 응용
+  - 영화 검색앱
+    - TMCB Open API
+    - MahApps.Metro
+    - MahApps.Metro.IconPacks
+    - Newtonsoft.Json
+
+<6일차 MovieFinder>
+
+<img src ="https://raw.githubusercontent.com/LaniJeong/pknu-wpf-2023/main/Day06/Day06WpfApp/wp11_movieFinder/MovieFinder.png" width="700" />
