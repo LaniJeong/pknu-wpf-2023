@@ -67,7 +67,7 @@ namespace wp10_employeesApp.ViewModels
 
         public MainViewModel()
         {
-            using(SqlConnection conn = new SqlConnection("연결문자열"))
+            using(SqlConnection conn = new SqlConnection("Data Source=desktop-qo2e9l6;Initial Catalog=pknu;Integrated Security=True"))
             {
                 conn.Open();
 
@@ -92,7 +92,7 @@ namespace wp10_employeesApp.ViewModels
                         Address = reader["Address"].ToString()
                     };
                     ListEmployee.Add(emp);
-                } // Data Source=desktop-qo2e9l6;Initial Catalog=pknu;Integrated Security=True
+                } 
             }
         }
     }
