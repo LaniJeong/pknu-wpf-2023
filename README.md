@@ -53,3 +53,7 @@ Windows Presentation Foundation
     - 화면 정리
     - Youtube OpenAPI
     - DB 데이터 바인딩
+    
+<7일차 MovieFinder>
+
+<img src ="https://raw.githubusercontent.com/LaniJeong/pknu-wpf-2023/main/Day07/Day07WpfApp/wp11_movieFinder/mviefinder.gif" width="700" />
