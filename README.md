@@ -57,3 +57,9 @@ Windows Presentation Foundation
 <7일차 MovieFinder>
 
 <img src ="https://raw.githubusercontent.com/LaniJeong/pknu-wpf-2023/main/Day07/Day07WpfApp/wp11_movieFinder/mviefinder.gif" width="700" />
+
+## 8일차
+- WPF 응용
+  - 영화 검색앱
+    - DB 데이터 바인딩(MySQL)
+    
