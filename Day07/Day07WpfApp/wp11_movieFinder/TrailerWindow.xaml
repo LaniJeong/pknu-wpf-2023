@@ -9,7 +9,7 @@
         xmlns:cefSharp="clr-namespace:CefSharp.Wpf;assembly=CefSharp.Wpf"
         xmlns:local="clr-namespace:wp11_movieFinder"
         mc:Ignorable="d"
-        Title="유튜브 예고편" Height="350" Width="800" FontFamily="NanumGotic"
+        Title="유튜브 예고편" Height="450" Width="800" FontFamily="NanumGotic"
         Loaded="MetroWindow_Loaded" Closing="MetroWindow_Closing">
     <mah:MetroWindow.IconTemplate>
         <DataTemplate>
