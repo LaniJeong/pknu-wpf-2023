@@ -81,7 +81,7 @@ namespace wp11_movieFinder
         // 실제 검색 메서드
         private async void SearchMovie(string movieName)
         {
-            string tmdb_apiKey = "46cd7a3d8502b7bf02d1f144deca31d2";
+            string tmdb_apiKey = "tmdbKey";
             string encoding_movieName = HttpUtility.UrlEncode(movieName, Encoding.UTF8);
             string openApiUrl = $"https://api.themoviedb.org/3/search/movie?api_key={tmdb_apiKey}" +
                         $"&language=ko-KR&page=1&include_adult=false&query={encoding_movieName}";      // 네이버 검색 URL
