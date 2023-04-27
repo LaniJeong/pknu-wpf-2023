@@ -68,4 +68,4 @@ Windows Presentation Foundation
 
 <8일차 MovieFinder>
 
-<img src ="https://raw.githubusercontent.com/LaniJeong/pknu-wpf-2023/main/Day07/Day07WpfApp/wp11_movieFinder/mviefinder.gif" width="700" />
+<img src ="https://github.com/LaniJeong/pknu-wpf-2023/blob/main/Day07/Day07WpfApp/wp11_movieFinder/movieFinder%20(1).gif?raw=true" width="700" />
