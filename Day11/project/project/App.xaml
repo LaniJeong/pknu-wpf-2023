@@ -1,7 +1,7 @@
-﻿<Application x:Class="wp12_findustCheck.App"
+﻿<Application x:Class="project.App"
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-             xmlns:local="clr-namespace:wp12_findustCheck"
+             xmlns:local="clr-namespace:project"
              StartupUri="MainWindow.xaml">
     <Application.Resources>
         <ResourceDictionary>
