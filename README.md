@@ -69,3 +69,14 @@ Windows Presentation Foundation
 <8일차 MovieFinder>
 
 <img src ="https://github.com/LaniJeong/pknu-wpf-2023/blob/main/Day07/Day07WpfApp/wp11_movieFinder/movieFinder%20(1).gif?raw=true" width="700" />
+
+## 9일차
+- WPF 응용
+  - 미세먼지확인 앱 완료
+    - MahApps.Metro
+    - 데이터포털 OpenAPI
+    - DB 데이터바인딩(MySQL)
+  - 개인 포트폴리오 개발방식
+    - 데이터포털 OpenAPI
+    - 네이버, 카카오 OpenAPI
+    - 기타 OpenAPI
