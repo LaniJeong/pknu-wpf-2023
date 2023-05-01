@@ -80,3 +80,7 @@ Windows Presentation Foundation
     - 데이터포털 OpenAPI
     - 네이버, 카카오 OpenAPI
     - 기타 OpenAPI
+
+## 10일차, 11일차
+  - 개인 포트폴리오 개발방식
+    - 데이터포털 OpenAPI
