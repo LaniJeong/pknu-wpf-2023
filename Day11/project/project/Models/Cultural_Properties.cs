@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace project.Models
+namespace project_CulturalProperties.Models
 {
-    public class CulturalProperties
+    public class Cultural_Properties
     {
         public string cultHeritNm { get; set; }
         public string addr { get; set; }
@@ -16,7 +16,7 @@ namespace project.Models
         public string era { get; set; }
         public string kind { get; set; }
         public string mainAgent { get; set; }
-        public string istalledYear { get; set; }
+        public string installedYear { get; set; }
         public string majorContents { get; set; }
         public double lat { get; set; }
         public double lng { get; set; }

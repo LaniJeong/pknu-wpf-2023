@@ -84,7 +84,7 @@ namespace wp11_movieFinder
             string tmdb_apiKey = "tmdbKey";
             string encoding_movieName = HttpUtility.UrlEncode(movieName, Encoding.UTF8);
             string openApiUrl = $"https://api.themoviedb.org/3/search/movie?api_key={tmdb_apiKey}" +
-                        $"&language=ko-KR&page=1&include_adult=false&query={encoding_movieName}";      // 네이버 검색 URL
+                        $"&language=ko-KR&page=1&include_adult=false&query={encoding_movieName}";      
             string result = string.Empty;   // 결과값
 
             // api 실행할 객체

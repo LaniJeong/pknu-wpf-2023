@@ -7,7 +7,7 @@
         xmlns:iconPacks="http://metro.mahapps.com/winfx/xaml/iconpacks"
         xmlns:local="clr-namespace:project_CulturalProperties"
         mc:Ignorable="d"
-        Title="Cultural Properties" Height="450" Width="800" Loaded="MetroWindow_Loaded" FontFamily="NanumGotic">
+        Title="Cultural Properties" Height="550" Width="800" Loaded="MetroWindow_Loaded" FontFamily="NanumGotic">
     <mah:MetroWindow.IconTemplate>
         <DataTemplate>
             <iconPacks:PackIconRPGAwesome Kind="CastleEmblem" Foreground="GhostWhite" Margin="7"/>
@@ -23,13 +23,26 @@
 
         <Label Grid.Column="0" Grid.Row="0" Content="부산 문화재 찾아보기" FontSize="14" FontWeight="ExtraBold" Margin="4,4,4,4" />
 
+        <!-- DB에 저장 -->
+        <Grid Grid.Row="0">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="3*"/>
+                <ColumnDefinition Width="1*"/>
+            </Grid.ColumnDefinitions>
+
+            <StackPanel Grid.Column="1" Orientation="Horizontal" HorizontalAlignment="Right" >
+                <Button x:Name="BtnSearch" Content="전체 조회" FontSize="15" Width="90" Margin="3" Style="{StaticResource MahApps.Styles.Button.Square.Highlight}" Click="BtnSearch_Click"/>
+                <Button x:Name="BtnFavSearch" Content="즐겨찾기" FontSize="15" Width="90" Margin="3" Style="{StaticResource MahApps.Styles.Button.Square.Accent}" Click="BtnFavSearch_Click"/>
+            </StackPanel>
+        </Grid>
+        
         <!-- 문화재 검색 -->
         <Grid Grid.Column="0" Margin="0,38,0,0" Grid.RowSpan="2">
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="3*"/>
                 <ColumnDefinition Width="1*"/>
             </Grid.ColumnDefinitions>
-            <TextBox Grid.Column="0" x:Name="TxtSearch" FontSize="15" 
+            <TextBox Grid.Column="0" Grid.Row="1" x:Name="TxtSearch" FontSize="15" 
                      mah:TextBoxHelper.Watermark="문화재 이름을 입력하세요"
                      mah:TextBoxHelper.UseFloatingWatermark="True"
                      mah:TextBoxHelper.ClearTextButton="True"
@@ -37,24 +50,18 @@
                      InputMethod.PreferredImeConversionMode="Native"
                      KeyDown="TxtSearch_KeyDown" Margin="0,1,0,0" />
 
-            <Button Grid.Column="1" x:Name="BtnSearch" FontSize="15" Margin="8,3"
-                    Content="검색" Style="{StaticResource MahApps.Styles.Button.Dialogs.Accent}" Click="BtnSearch_Click">
-                <Button.ContentTemplate>
-                    <DataTemplate>
-                        <StackPanel Orientation="Horizontal">
-                            <iconPacks:PackIconPixelartIcons Kind="Search" Margin="3,6" />
-                            <TextBlock Text="{Binding}" Margin="3"/>
-                        </StackPanel>
-                    </DataTemplate>
-                </Button.ContentTemplate>
-            </Button>
+            <StackPanel Grid.Column="1" Orientation="Horizontal" HorizontalAlignment="Center" >
+                <Button x:Name="BtnSave" Content="저장" FontSize="18" Width="90" Margin="3" Style="{StaticResource MahApps.Styles.Button.Square.Accent}" Click="BtnSave_Click"/>
+                <Button x:Name="BtnDelete" Content="삭제" FontSize="18" Width="90" Margin="3" Style="{StaticResource MahApps.Styles.Button.Square.Highlight}" Click="BtnDelete_Click"/>
+
+            </StackPanel>
         </Grid>
 
         <!-- 데이터 그리드 영역 -->
         <DataGrid Grid.Row="2" Grid.Column="0" x:Name="GrdResult" Margin="5,5,5,5"
                   IsReadOnly="True" Style="{StaticResource MahApps.Styles.DataGrid.Azure}"
                   ItemsSource="{Binding}" AutoGenerateColumns="False"
-                  SelectedCellsChanged="GrdResult_SelectedCellsChanged" Grid.RowSpan="2">
+                   MouseDoubleClick="GrdResult_MouseDoubleClick">
             <DataGrid.Columns>
                 <DataGridTextColumn Binding="{Binding cultHeritNm}" Header="문화재명" FontWeight="Bold"/>
                 <DataGridTextColumn Binding="{Binding addr}" Header="소재지" FontWeight="Bold"/>
