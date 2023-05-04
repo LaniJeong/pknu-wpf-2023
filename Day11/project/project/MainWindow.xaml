@@ -7,7 +7,7 @@
         xmlns:iconPacks="http://metro.mahapps.com/winfx/xaml/iconpacks"
         xmlns:local="clr-namespace:project_CulturalProperties"
         mc:Ignorable="d"
-        Title="Cultural Properties" Height="550" Width="800" Loaded="MetroWindow_Loaded" FontFamily="NanumGotic">
+        Title="Cultural Properties" Height="450" Width="800" Loaded="MetroWindow_Loaded" FontFamily="NanumGotic">
     <mah:MetroWindow.IconTemplate>
         <DataTemplate>
             <iconPacks:PackIconRPGAwesome Kind="CastleEmblem" Foreground="GhostWhite" Margin="7"/>
@@ -30,7 +30,7 @@
                 <ColumnDefinition Width="1*"/>
             </Grid.ColumnDefinitions>
 
-            <StackPanel Grid.Column="1" Orientation="Horizontal" HorizontalAlignment="Right" >
+            <StackPanel Grid.Column="1" Orientation="Horizontal" HorizontalAlignment="Center" >
                 <Button x:Name="BtnSearch" Content="전체 조회" FontSize="15" Width="90" Margin="3" Style="{StaticResource MahApps.Styles.Button.Square.Highlight}" Click="BtnSearch_Click"/>
                 <Button x:Name="BtnFavSearch" Content="즐겨찾기" FontSize="15" Width="90" Margin="3" Style="{StaticResource MahApps.Styles.Button.Square.Accent}" Click="BtnFavSearch_Click"/>
             </StackPanel>
@@ -66,7 +66,6 @@
                 <DataGridTextColumn Binding="{Binding cultHeritNm}" Header="문화재명" FontWeight="Bold"/>
                 <DataGridTextColumn Binding="{Binding addr}" Header="소재지" FontWeight="Bold"/>
                 <DataGridTextColumn Binding="{Binding organManage}" Header="관리주체" FontWeight="Bold"/>
-                <DataGridTextColumn Binding="{Binding number}" Header="지정번호" FontWeight="Bold"/>
                 <DataGridTextColumn Binding="{Binding number}" Header="지정번호" FontWeight="Bold"/>
                 <DataGridTextColumn Binding="{Binding dates}" Header="지정일자" FontWeight="Bold"/>
                 <DataGridTextColumn Binding="{Binding era}" Header="시대" FontWeight="Bold"/>

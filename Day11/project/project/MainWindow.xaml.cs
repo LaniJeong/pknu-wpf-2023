@@ -185,7 +185,7 @@ namespace project_CulturalProperties
             }
             catch (Exception ex)
             {
-                await Commons.ShowMessageAsync("오류", $"DB저장 오류 {ex.Message}");
+                await Commons.ShowMessageAsync("오류", $"이미 저장되었습니다. 즐겨찾기를 확인하세요. \n{ex.Message}");
             }
         }
 
