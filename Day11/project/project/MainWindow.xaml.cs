@@ -218,6 +218,7 @@ namespace project_CulturalProperties
             
         }
 
+        #region < 즐겨찾기 저장목록 불러오기 >
         private async void BtnFavSearch_Click(object sender, RoutedEventArgs e)
         {
             this.DataContext = null;
@@ -276,6 +277,8 @@ namespace project_CulturalProperties
                 await Commons.ShowMessageAsync("오류", $"DB조회 오류 {ex.Message}");
             }
         }
+
+        #endregion
 
         private async void BtnDelete_Click(object sender, RoutedEventArgs e)
         {

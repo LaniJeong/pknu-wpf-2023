@@ -501,5 +501,10 @@ namespace wp11_movieFinder
 
             BtnViewFavorite_Click(sender, e);   // 즐겨찾기 보기 이벤트 핸들러 한번 실행
         }
+
+        private void GrdResult_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+
+        }
     }
 }
