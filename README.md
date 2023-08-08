@@ -85,6 +85,6 @@ Windows Presentation Foundation
   - 개인 포트폴리오 개발방식
     - 데이터포털 OpenAPI
 
-<부산 문화재 조>
+<부산 문화재 조사 앱>
 
 <img src ="https://raw.githubusercontent.com/LaniJeong/pknu-wpf-2023/c78258bdc72bfbe24a3c205277a6c1fcdae06d9d/Day11/project/%EB%B6%80%EC%82%B0%EB%AC%B8%ED%99%94%EC%9E%AC%EC%B0%BE%EA%B8%B0.gif" width="700" />
